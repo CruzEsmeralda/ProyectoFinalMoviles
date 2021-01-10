@@ -16,10 +16,10 @@ const Listado = ({navigation}) => {
             rightComponent={{ icon: 'person-add', color: '#fff', onPress:()=>{
                  setZapatos({
                      id:null,
-                     genero:"",
-                     temporada:"",
-                     talla:"",
-                     descripcion:"",
+                     Genero:"",
+                     Temporada:"",
+                     Talla:"",
+                     Descripcion:"",
                  })   
 
                  navigation.navigate('Formulario',{status:"add"})
